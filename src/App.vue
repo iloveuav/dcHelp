@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img class="logo" alt="CloudBase logo" src="./assets/cloudbase.png" />
-    <img class="logo" alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="欢迎使用云开发 CloudBase Vue.js App" />
+    <img class="logo" alt="CloudBase logo" src="./assets/testicon.png" />
+    <!-- <img class="logo" alt="Vue logo" src="./assets/redSpaceMap.png" /> -->
+    <!-- <HelloWorld msg="欢迎使用 【名字】组件库在线调试平台" /> -->
+    <OnlineDebug />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import OnlineDebug from "./components/OnlineDebug/OnlineDebug.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    OnlineDebug,
   },
 };
 </script>
